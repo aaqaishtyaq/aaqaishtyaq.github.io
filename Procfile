@@ -1,1 +1,1 @@
-web: bundle install && gulp default
+web: bundle install && gulp build
