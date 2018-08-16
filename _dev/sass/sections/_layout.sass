@@ -1,0 +1,111 @@
+*
+    padding: 0
+    margin: 0
+
+h1, h2, h3, h4, h5, h6
+    font-family: $headings
+a
+    color: inherit
+    outline: 0
+    text-decoration: none
+
+    &:before, &:after
+        content: "_"
+
+    &.all_posts
+
+        color: $green
+
+        &:before, &:after
+            content: "**"
+
+body
+    background: darken($dark-purple, 7%)
+    color: white
+    font-family: $font
+
+main
+    max-width: 56em
+
+    +mobile
+        padding: 0 1em
+
+    +tablet
+        padding: 0 2em
+
+    +desktop-up
+        padding-left: 3em
+
+section
+    margin-bottom: 2em
+
+    +mobile
+        margin-bottom: 1em
+
+.section-heading
+
+    font-size: 2.3em
+    margin-bottom: 1em
+
+    span:first-child
+        color: $yellow
+
+    +mobile
+        font-size: 1.2em
+
+section h3
+    font-size: 1.5em
+    margin-bottom: 1em
+    color: $light-blue
+
+    +mobile
+        font-size: 1.2em
+
+ul, ol
+
+    padding-left: 2em
+    font-size: 1.2em
+
+    li
+        margin-bottom: .7em
+
+    +mobile
+        padding-left: 1em
+
+        li
+            line-height: 1.3
+
+ol
+    padding-left: 4em
+
+    +mobile
+        padding-left: 2em
+
+ul > li
+    color: $light-blue
+    list-style: none
+
+    span
+        color: white
+
+    &:before
+        content: "~ "
+
+    &.latest_posts__post
+        color: white
+
+        span
+            color: $pink
+
+p
+
+    font-size: 1.3em
+    margin-bottom: 1em
+    line-height: 1.4
+
+    +mobile
+        font-size: 1.2em
+        line-height: 1.4
+
+    &:last-child
+        margin-bottom: 0

@@ -1,0 +1,15 @@
+section.jobs
+
+    h2.section-heading
+        span zabana@karimc:~$
+        span  history
+
+    ul
+        | {% for job in site.data.jobs.jobs %}
+        li
+            span {{ job.year }} -
+            span  {{ job.title }} -
+            a(href="{{ job.url  }}") {{ job.company }}
+            span  - {{ job.location }}
+
+        | {% endfor %}

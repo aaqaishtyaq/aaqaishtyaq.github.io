@@ -1,0 +1,1 @@
+"use strict";var showElements=function(){var e=window.pageYOffset,n=window.innerHeight,o=Array.from(document.querySelectorAll(".animated-section"));o.forEach(function(o){var t=o.offsetTop;e>t-n/1.3&&o.childNodes.forEach(function(e){e.classList.add("animate")})})};window.addEventListener("scroll",showElements);

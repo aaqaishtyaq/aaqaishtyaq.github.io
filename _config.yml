@@ -1,0 +1,8 @@
+name: Karim Cheurfi - Python and Node.js developer
+markdown: kramdown
+exclude: ["node_modules", "gulpfile.js", "package.json"]
+kramdown:
+    input: GFM
+    syntax_highlighter: rouge
+permalink: /notes/:title
+baseurl: /

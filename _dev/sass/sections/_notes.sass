@@ -1,0 +1,44 @@
+.notes-container
+    max-width: 60em
+
+.notes__list
+    padding-left: 0
+
+.notes__list li
+
+    margin-bottom: 1em
+    color: white
+
+    +mobile
+        margin-bottom: 1.4em
+
+    &:before
+        content: ""
+
+
+.notes__list li a
+
+    text-decoration: none
+    display: inline-block
+    padding-bottom: 1px
+    margin-bottom: 10px
+    border-bottom: 2px dotted transparent
+    transition: .2s ease
+
+    &:before, &:after
+        display: none
+
+    &:hover
+        border-color: white
+    h2
+        font-size: 1.4em
+        display: inline-block
+
+        +mobile
+            display: block
+            font-size: 1.2em
+
+.notes__list time
+    font-size: 1em
+    padding-left: .5em
+    color: $pink

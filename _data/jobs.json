@@ -1,0 +1,37 @@
+{
+
+    "jobs": [
+
+        {
+            "year": "2018 / Present",
+            "title": "Freelance Django Developer",
+            "company": "HostingJunction",
+            "url": "http://www.hostingjunction.in",
+            "location": "Delhi, India"
+        },
+
+        {
+            "year": "2018",
+            "title": "Back End Developer Intern",
+            "company": "HostingJunction",
+            "url": "http://stsolutions.co.in",
+            "location": "Delhi, India"
+        },
+
+        {
+           "year": "2017",
+            "title": "Full Stack Developer",
+            "company": "Alteora Solutions Inc.",
+            "url": "http://www.ceesixhealth.com/",
+            "location": "Remote"
+        },
+
+        {
+            "year": "2017",
+            "title": "IS Analyst Intern",
+            "company": "Mahindra Special Services Group",
+            "url": "http://www.mahindrassg.com/",
+            "location": "Delhi, India"
+        }
+    ]
+}

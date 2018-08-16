@@ -1,0 +1,15 @@
+section.projects
+
+    h2.section-heading
+        span zabana@karimc:~$
+        span  ls projects/
+
+    ul
+
+        | {% for project in site.data.projects.projects %}
+
+        li
+            a(href="{{project.url}}") {{ project.name }}
+            span  {{ project.desc }}
+
+        | {% endfor %}
