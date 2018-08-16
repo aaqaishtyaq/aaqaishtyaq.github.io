@@ -1,0 +1,33 @@
+---
+layout: blog
+title: Aaqa's Notes - The blog of Aaqa Ishtyaq
+description: |
+    The blog of Aaqa Ishtyaq. You will find posts about Python, Node.js,
+    Javascript, Devops and other random things.
+permalink: /notes/
+---
+
+<main class="notes-container">
+
+    <section class="notes">
+
+        <h2 class="section-heading">
+            <span>aaqa@ishtyaq:~$</span>
+            <span>My Notes</span>
+        </h2>
+
+        <ul class="notes__list">
+
+            {% for post in site.posts %}
+
+            <li>
+                <a href="{{post.url}}.html"><h2> # {{post.title}}</h2></a>
+                <time> {{post.date | date: "%m/%d/%Y" }}</time>
+            </li>
+            {% endfor %}
+
+        </ul>
+
+    </section>
+
+</main>

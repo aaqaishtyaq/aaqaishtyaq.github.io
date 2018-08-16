@@ -1,0 +1,17 @@
+section.latest_posts
+
+    h2.section-heading
+        span zabana@karimc:~$
+        span  ls articles/
+
+    ul
+        | {% for post in site.posts limit:5 %}
+        li.latest_posts__post
+            a(href="{{ post.url }}.html") {{ post.title }}
+            span  {{ post.date | date_to_string }}
+
+        | {% endfor %}
+        a(href="{{ site.url }}/notes" class="all_posts") See all posts
+
+
+

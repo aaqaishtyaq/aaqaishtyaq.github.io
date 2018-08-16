@@ -1,0 +1,48 @@
+---
+layout: blog
+---
+
+<main class="post">
+
+    <article class="post__body">
+
+        <div class="post__body__header">
+            <h2>{{ page.title }}</h2>
+            <time><span>Published on: {{ page.date | date_to_string }}</span></time>
+        </div>
+
+        <div class="post__body__content">
+            {{ content }}
+        </div>
+
+    </article>
+
+    <section class="post__navigation">
+
+        <h2 class="section-heading">
+            <span>aaqa@ishtyaq:~$</span>
+            <span>ls otherposts/</span>
+        </h2>
+
+        <div class="post__navigation__links">
+
+            <ul>
+                {% if page.previous.url %}
+                    <li>
+                        Prev: <a class="post__navigation__prev" href="{{page.previous.url}}.html">{{ page.previous.title }}</a>
+                    </li>
+                {% endif%}
+
+            {% if page.next.url %}
+            <li>
+                Next: <a class="post__navigation__next" href="{{page.next.url}}.html">{{ page.next.title }}</a>
+            </li>
+            {% endif%}
+
+
+            </ul>
+        </div>
+
+    </section>
+
+</main>

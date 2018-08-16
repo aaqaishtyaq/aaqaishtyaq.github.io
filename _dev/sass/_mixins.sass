@@ -1,0 +1,71 @@
+// !! Responsive Mixins !! //
+
+// Declare the Breakpoints in variables
+
+$mobile: "(min-width: 320px) and (max-width: 480px)"
+$mobile-up: "(min-width: 320px)"
+$tablet: "(min-width: 768px) and (max-width: 1024px)"
+$tablet-up: "(min-width: 768px)"
+$tablet-landscape: "(min-width: 768px) and (max-width: 1024px) and (orientation: landscape)"
+$desktop: "(min-width: 1200px) and (max-width: 1600px)"
+$large-desktop: "(min-width: 1600px)"
+$desktop-up: "(min-width: 1200px)"
+$desktop-retina: "(min-device-width: 1200px) and  (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi)"
+
+
+// Create the mixins
+
+=mobile
+
+    @media #{$mobile}
+
+        @content
+
+=mobile-up
+
+    @media #{$mobile-up}
+
+        @content
+
+=tablet
+
+    @media #{$tablet}
+
+        @content
+
+=tablet-up
+
+    @media #{$tablet-up}
+
+        @content
+
+=tablet-landscape
+
+    @media #{$tablet-landscape}
+
+        @content
+
+=desktop
+
+    @media #{$desktop}
+
+        @content
+
+=desktop-up
+
+    @media #{$desktop-up}
+
+        @content
+
+
+=desktop-retina
+
+    @media #{$desktop-retina}
+
+        @content
+
+=large-desktop
+
+    @media #{$large-desktop}
+
+        @content

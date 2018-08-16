@@ -1,0 +1,56 @@
+section.skills
+
+    h2.section-heading
+        span zabana@karimc:~$
+        span  cat skills.md
+
+    div.container
+
+        div.skill-group
+
+            h3.languages ## Languages
+
+            ul
+                | {% for language in site.data.skills.languages %}
+
+                li
+                    span  {{ language }}
+
+                | {% endfor %}
+
+        div.skill-group
+
+            h3.tools ## Tools
+
+            ul
+                | {% for tool in site.data.skills.tools %}
+
+                li
+                    span  {{ tool }}
+
+                | {% endfor %}
+
+
+        div.skill-group
+
+            h3.frameworks ## Frameworks
+
+            ul
+                | {% for framework in site.data.skills.frameworks %}
+
+                li
+                    span  {{ framework }}
+
+                | {% endfor %}
+
+        div.skill-group
+
+            h3.other ## Other
+
+            ul
+                | {% for thing in site.data.skills.other %}
+
+                li
+                    span  {{ thing }}
+
+                | {% endfor %}
