@@ -2,7 +2,7 @@
   "name": "aaqa.github.io",
   "version": "1.0.0",
   "engines": {
-    "node": "10.9.0"
+    "node": "*"
   },
   "description": "",
   "main": "gulpfile.js",
