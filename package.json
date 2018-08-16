@@ -1,5 +1,5 @@
 {
-  "name": "zabanaa.github.io",
+  "name": "aaqa.github.io",
   "version": "1.0.0",
   "description": "",
   "main": "gulpfile.js",
@@ -8,21 +8,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Zabanaa/zabanaa.github.io.git"
+    "url": "git+https://github.com/aaqaishtyaq/aaqa.github.io.git"
   },
   "keywords": [],
-  "author": "Karim Cheurfi <karim.cheurfi@gmail.com> (Zabana)",
+  "author": "Aaqa Ishtyaq <aaqaishtyaq@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Zabanaa/zabanaa.github.io/issues"
+    "url": "https://github.com/aaqaishtyaq/aaqa.github.io/issues"
   },
-  "homepage": "https://github.com/Zabanaa/zabanaa.github.io#readme",
+  "homepage": "https://github.com/aaqaishtyaq/aaqa.github.io#readme",
   "devDependencies": {
-    "browser-sync": "^2.18.5",
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^3.1.1",
-    "gulp-pug": "^3.2.0",
-    "gulp-sass": "^3.1.0",
-    "gulp-uglify": "^2.0.0"
+    "browser-sync": "*",
+    "gulp": "*",
+    "gulp-autoprefixer": "*",
+    "gulp-pug": "*",
+    "gulp-sass": "*",
+    "gulp-uglify": "*"
   }
 }

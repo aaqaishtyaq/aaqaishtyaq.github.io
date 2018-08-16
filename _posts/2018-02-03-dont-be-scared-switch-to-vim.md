@@ -4,7 +4,7 @@ title: Don't be scared. Switch to vim.
 ---
 
 I'm currently sitting at the most boring meetup I've probably ever attended in
-Paris. It's about chatbots. I don't care about chatbots, I care about free
+Delhi. It's about chatbots. I don't care about chatbots, I care about free
 stickers and pizza. So I'll take this opportunity to open up about a subject
 that's dear to my heart: vim.
 
@@ -12,9 +12,9 @@ I used to believe vim was exclusive to this superior race of developers who
 gulp coffee like it's water and seem to only read HN and nothing else. (Hi, if
 you're coming from HN). Architecure and Software design comes naturally to them,
 they never run into bugs and they can recognise the most obscure of algorithms
-at a glance (Shout out to Dan B, one of my ex coworkers).
+at a glance (Shout out to Shashank, one of my mentor).
 
-Dan is a good, productive developer. Dan uses vim. I want to be like Dan. I want
+Shanky is a good, productive developer. Shany uses vim. I want to be like Shanky. I want
 to use vim.
 
 There are a million reasons why you should jump ship and join the cult. In the
@@ -48,7 +48,7 @@ you might need. And if there isn't, you can program your own.
 ## Ubiquity
 
 Not really, but I wanted to place a complicated word to sound smart.
-Seriously though, it's everywhere. On Mac OS, Windows and of course Linux. If
+Seriously though, it's everywhere. On Mac OS, Windows and of course Linux/Unix. If
 you work on remote servers you can quickly edit files on the fly without having
 to use nano. (Don't use nano)
 

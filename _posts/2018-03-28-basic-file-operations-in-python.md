@@ -152,7 +152,7 @@ These have been the most useful file / directory functions for me in Python. I
 really love the fact that the method names sound natural and are (for the most
 part) similar to linux commands. What are your favourite file operation methods
 ? Any tip or trick you want to share with me ? Something I've missed ? Ping on
-twitter ! I'm [@aaqaishtyaq](https://twitter.com/zabanaa).
+twitter ! I'm [@aaqaishtyaq](https://twitter.com/aaqaishtyaq).
 
 If you found this article useful, please share it with your nerd friends /
 coworkers and spread the word !
