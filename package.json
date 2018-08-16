@@ -1,6 +1,9 @@
 {
   "name": "aaqa.github.io",
   "version": "1.0.0",
+  "engines": {
+    "node": "8.11.4"
+  },
   "description": "",
   "main": "gulpfile.js",
   "scripts": {
