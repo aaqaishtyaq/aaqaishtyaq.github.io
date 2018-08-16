@@ -1,4 +1,5 @@
 name: Aaqa Ishtyaq - Python developer
+email: aaqaishtyaq@gmail.com
 markdown: kramdown
 exclude: ["node_modules", "gulpfile.js", "package.json", "vendor"]
 kramdown:
