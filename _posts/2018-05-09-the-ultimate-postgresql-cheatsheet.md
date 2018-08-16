@@ -22,20 +22,20 @@ Enjoy ! (and yeah I went all in with the pokemon references)
 
 ```sql
 /* create a user without privileges*/
-CREATE ROLE zabana;
+CREATE ROLE aaqa;
 
 /* create a user with privileges*/
-CREATE ROLE zabana LOGIN CREATEDB CREATEROLE REPLICATION;
+CREATE ROLE aaqa LOGIN CREATEDB CREATEROLE REPLICATION;
 
 /* Add privileges to existing user*/
-ALTER ROLE zabana WITH LOGIN CREATEROLE CREATEDB REPLICATION;
+ALTER ROLE aaqa WITH LOGIN CREATEROLE CREATEDB REPLICATION;
 ```
 
 
 ### Make a user superuser (bump their privileges)
 
 ```sql
-ALTER ROLE zabana WITH superuser;
+ALTER ROLE aaqa WITH superuser;
 ```
 
 
@@ -91,7 +91,7 @@ DROP ROLE pikachu;
 ### Change DB ownership
 
 ```sql
-ALTER DATABASE pokemons OWNER TO zabana;
+ALTER DATABASE pokemons OWNER TO aaqa;
 ```
 
 
@@ -571,6 +571,6 @@ schemas and multiple other objects.*/
 ```
 
 *Note: If you find errors, typos or would like to add new tips, feel free to
-reach out to me on twitter. I'm [@zabanaa_](https://twitter.com/aaqaishtyaq). Thank
+reach out to me on twitter. I'm [@aaqaishtyaq](https://twitter.com/aaqaishtyaq). Thank
 you for reading ! And if you find this useful, share it with your friends and
 coworkers !*

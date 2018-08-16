@@ -5,10 +5,9 @@ title: The ultimate setup for remote development
 
 I'm a programmer. Like most programmers, I use an Apple laptop. They're just the
 best on the market and the best purchase you can make as a developer. No
-fanboyism here, just stating facts. They're fast, well built, and durable. I've
-had my MacBook Air for close to three years now and never had a single issue with it.
+fanboyism here, just stating facts. They're fast, well built, and durable.
 
-I rely on this laptop for all my personal / client work. I run vagrant boxes, docker containers in it and all the usual stuff. I've also traveled with it quite a lot (I even have the UK / EU adapters).
+I rely on this laptop for all my personal / client work. I run vagrant boxes, docker containers in it and all the usual stuff.
 
 As a result, I've developed this irrational fear that it would get stolen or
 fall off my bedroom window (things like that happen, trust me). Interestingly
@@ -36,7 +35,7 @@ following:
 
 Because all of your work is now done on a remote machine you don't really have
 to care about what computer you're using. It can be a super expensive (notice I
-didn't say overpriced) Apple laptop or any of its really good windows competitors (the DELL xps 13/15 comes to mind) or even a super cheap, 35£ raspberry Pi. Some people even use chromebooks ! They stick ubuntu on them and use them as their primary machines (SSH is a bit tricky to setup on chrome OS).
+didn't say overpriced) Apple laptop or any of its really good windows competitors (the DELL xps 13/15 comes to mind) or even a super cheap, 35$ raspberry Pi. Some people even use chromebooks ! They stick ubuntu on them and use them as their primary machines (SSH is a bit tricky to setup on chrome OS) but hey! Official [Linux support](https://www.xda-developers.com/chromebooks-linux-app-support/) is coming for you ChromeOS folks.
 
 ## Dev Tools ##
 
@@ -47,10 +46,10 @@ This one's obvious. While git is a life saver and a great tool for collaboration
 ### Vim
 
 I've used sublime text but felt bad for continuously extending the trial because I
-couldn't pay for it. Then I switched to atom and got frustrated by how slow it
-runs. Then one of my colleagues in England introduced me to vim, and I never
+couldn't pay for it. Then I switched back to VSCode and got frustrated by how slow it
+runs after using Sublime. Then i tried vim, and I never
 looked back. It's the lightest, fastest and overall best text editor out there by a huge
-argin (in my opinion).
+margin (in my opinion).
 
 Vim is highly customizable and lets you save your settings inside a
 `.vimrc` file, which makes it version control friendly. It also makes your vim
@@ -70,10 +69,10 @@ inside of a `.tmux.conf` file.
 To start developing on a remote server, you'll need ... well, a remote
 server. If you don't know what a VPS is, it stands for **Virtual Private Server**.
 It's essentially a virtual machine that you pay for monthly, which runs a server
-distribution of linux (Ubuntu, CentOS ...). You can connect to it via SSH (it has a public ip address) and start playing around. You have complete control over the server, you can configure it however way you want.
+distribution of linux (Ubuntu, CentOS ...), or Unix (FreeBSD). You can connect to it via SSH (it has a public ip address) and start playing around. You have complete control over the server, you can configure it however way you want.
 
 There's a large range of VPS providers on the market, the most notable
-ones are [Linode](https://www.linode.com/), [Digital Ocean](https://www.digitalocean.com), and [Amazon EC2](https://aws.amazon.com/ec2/). (If you're in the Euro Zone, you might want to look into [Scaleway](https://www.scaleway.com)).
+ones are [Linode](https://www.linode.com/), [Digital Ocean](https://www.digitalocean.com), and [Amazon EC2](https://aws.amazon.com/ec2/).
 
 ### Dotfiles
 
@@ -84,7 +83,7 @@ are not exclusive to vim and tmux, you can for example save your shell configura
 Doing this is extremely powerful because you can store these configuration files
 on github and always pull the latest version when you launch a new development server.
 
-You can check out my own [dotfiles](https://github.com/Zabanaa/dotfiles) on github to help you get started.
+You can check out my own [dotfiles](https://github.com/aaqaishtyaq/dotfiles) on github to help you get started.
 
 ### (Optional) Ansible
 
@@ -108,7 +107,7 @@ With Ansible you can:
 If you don't like Ansible, there are other server provisioning tools like
 [puppet](https://puppet.com/), [chef](https://www.chef.io/) and [salt](https://saltstack.com/) that will work just as good.
 
-If you're interested, you can have a look at the [ansible playbook I've made](https://github.com/Zabanaa/night-city) to provision my development servers.
+<!--If you're interested, you can have a look at the [ansible playbook I've made](https://github.com/aaqaishtyaq/night-city) to provision my development servers.-->
 
 ## Caveats
 

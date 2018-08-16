@@ -184,3 +184,7 @@ Response = namedtuple('APIResponse', ['status_code', 'body', 'headers'])
 ## Other
 
 * Always clarify function calls by using keyword arguments
+
+If you learned something from this article, share it with your co-workers and
+fellow hackers. If you notice any typo, error etc let me know on
+[twitter](https://twitter.com/aaqaishtyaq).
