@@ -3,7 +3,7 @@ _site
 *.swo
 .idea
 node_modules
-
+_site
 ### Jekyll ###
 _site/
 .sass-cache/
