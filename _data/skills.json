@@ -1,6 +1,6 @@
 {
 
-    "languages": ["Python", "Bash", "Javascript (Front-End) / ES6-7", "HTML5", "CSS3",
+    "languages": ["Python", "Bash", "Javascript / ES6-7", "HTML5", "CSS3",
         "Sass", "SQL", "Markdown"
     ],
     "tools": ["Vim / VS Code / Sublime Text 3", "Tmux (Can't live without)", "Z Shell", "Virtualbox", "Vagrant", "Docker (Currently having fun with)", "Ansible", "Gulp"],
