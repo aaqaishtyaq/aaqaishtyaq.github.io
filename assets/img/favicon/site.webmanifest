@@ -1,0 +1,14 @@
+{
+    "name": "Aaqa",
+    "short_name": "Aaqa",
+    "icons": [
+        {
+            "src": "/android-chrome-96x96.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#9068be",
+    "background_color": "#9068be",
+    "display": "standalone"
+}
