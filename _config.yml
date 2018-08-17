@@ -1,6 +1,10 @@
 name: Aaqa Ishtyaq - Python developer
 email: aaqaishtyaq@gmail.com
 markdown: kramdown
+url: "https://aaqai.me"
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
 exclude: ["node_modules", "gulpfile.js", "package.json", "vendor"]
 kramdown:
     input: GFM
