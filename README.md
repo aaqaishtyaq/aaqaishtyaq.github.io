@@ -12,5 +12,5 @@ bundle install && yarn install
 Serve the page locally
 
 ```bash
-grunt
+gulp
 ```
