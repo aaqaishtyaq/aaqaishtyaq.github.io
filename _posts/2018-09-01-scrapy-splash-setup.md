@@ -5,7 +5,7 @@ title: Setting up Scrapy Splash Plugin
 
 Scrapy is good for scraping static web pages using python but when it comes to dynamic web pages scrapy can't do wonders, and there comes ```Selenium``` but as good as selenium is, it just got beaten by Scrapy in terms or speed.
 
-Web nowdays is all about Dynamic JS ans AJAX. So for this very scenario the guys over [scrapy-plugins][0] created ```scrapy-splash```. 
+Web nowdays is all about Dynamic JS based pages and AJAX. So for this very scenario the guys over [scrapy-plugins][0] created ```scrapy-splash```. 
 Scrapy-Splash is a plugin that connects Scrapy with Splash (Lightweight, scriptable browser as a service with an HTTP API).
 In a nutshell what splash do is it traps the response recieved from the server and renders it. Then it return a ```render.html``` which is static and can be easily scraped.
 
