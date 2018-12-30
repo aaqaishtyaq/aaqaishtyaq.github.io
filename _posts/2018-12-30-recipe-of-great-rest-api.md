@@ -67,7 +67,7 @@ You can also choose to send a serialised version of the resource in the response
             "id": 3,
             "name": "Harry_Potter",
             "location": "London",
-            "job": "Wis",
+            "job": "Auror",
             "href": "https://yoursite.com/api/users/3"
         }
     }
@@ -159,6 +159,7 @@ Access-Control-Allow-Headers: # All the headers you want to accept should be lis
 * Actions on resources must be described with HTTP verbs
 * for partial updates of resources use PATCH instead of PUT
 * for versioning, use dates instead of numbers in the URL (foursquare does exactly that)
+
 
 ---
 If you have any comment, suggestions or remarks of any sort, you can ping
