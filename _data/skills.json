@@ -3,7 +3,7 @@
     "languages": ["Python", "Bash", "Javascript / ES6-7", "HTML5", "CSS3",
         "Sass", "SQL", "Markdown"
     ],
-    "tools": ["Vim / VS Code / Sublime Text 3", "Tmux (Can't live without)", "Z Shell", "Virtualbox", "Vagrant", "Docker (Currently having fun with)", "Ansible", "Gulp"],
+    "tools": ["Vim / VS Code", "Tmux (Can't live without)", "Z Shell", "Virtualbox", "Vagrant", "Docker (Currently having fun with)", "Ansible", "Gulp"],
     "frameworks": ["Scrapy", "Django", "Flask", "Node.js", "React.js", "Mocha / Chai"],
     "other": ["HTTP / REST / OAuth2 / API Development", "PostgreSQL / MongoDB", "Git / Unit Testing / CI",  "Basic UNIX Admin", "Nginx (SSL, Static asset caching)", "AWS (EC2, S3)"]
 }
