@@ -29,5 +29,8 @@
     "gulp-pug": "*",
     "gulp-sass": "*",
     "gulp-uglify": "*"
+  },
+  "dependencies": {
+    "natives": "^1.1.6"
   }
 }
