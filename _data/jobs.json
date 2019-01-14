@@ -3,6 +3,14 @@
     "jobs": [
 
         {
+            "year": "2019 / Present",
+            "title": "Software Engineer Intern",
+            "company": "HackerRank",
+            "url": "http://www.hackerrank.com/",
+            "location": "Bengaluru, India"
+        },
+
+        {
             "year": "2018",
             "title": "Freelance Django Developer",
             "company": "HostingJunction",
