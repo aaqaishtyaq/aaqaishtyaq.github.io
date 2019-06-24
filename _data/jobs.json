@@ -1,10 +1,17 @@
 {
 
     "jobs": [
-
         {
             "year": "2019 / Present",
-            "title": "Software Engineer Intern",
+            "title": "Software Development Engineer I",
+            "company": "HackerRank",
+            "url": "http://www.hackerrank.com/",
+            "location": "Bengaluru, India"
+        },
+        
+        {
+            "year": "2019",
+            "title": "Software Engineering Intern",
             "company": "HackerRank",
             "url": "http://www.hackerrank.com/",
             "location": "Bengaluru, India"
@@ -24,14 +31,6 @@
             "company": "ShreeTech Solutions",
             "url": "http://stsolutions.co.in",
             "location": "Delhi, India"
-        },
-
-        {
-           "year": "2017",
-            "title": "Full Stack Developer",
-            "company": "Alteora Solutions Inc.",
-            "url": "http://www.ceesixhealth.com/",
-            "location": "Remote"
         },
 
         {
