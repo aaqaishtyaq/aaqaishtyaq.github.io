@@ -1,7 +1,7 @@
 name: Aaqa Ishtyaq - FullStack developer
 email: aaqaishtyaq@gmail.com
 markdown: kramdown
-url: "https://aaqai.me"
+url: "https://aaqa.dev"
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
