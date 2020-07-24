@@ -24,7 +24,7 @@
   "homepage": "https://github.com/aaqaishtyaq/aaqa.github.io#readme",
   "devDependencies": {
     "browser-sync": "*",
-    "gulp": "*",
+    "gulp": "^3.9.1",
     "gulp-autoprefixer": "*",
     "gulp-pug": "*",
     "gulp-sass": "*",
