@@ -2,9 +2,10 @@
 
     "languages": [
         "Python",
+        "Go",
         "Bash",
         "Ruby",
-        "Javascript / ES6-7",
+        "Javascript / Typescript",
         "HTML5",
         "CSS3",
         "Sass",
@@ -22,6 +23,7 @@
         "Gulp"
     ],
     "frameworks": [
+        "Ruby on Rails",
         "Scrapy",
         "Django",
         "Flask",
@@ -30,11 +32,13 @@
         "Mocha / Chai"
     ],
     "other": [
+        "Kubernetes",
         "HTTP / REST / OAuth2 / API Development",
         "PostgreSQL / MongoDB",
         "Git / Unit Testing / CI",
         "Basic UNIX Admin",
         "Nginx (SSL, Static asset caching)",
-        "AWS (EC2, S3)"
+        "AWS (EC2, S3)",
+        "Google Cloud Platform (GKE, GCR)"
     ]
 }

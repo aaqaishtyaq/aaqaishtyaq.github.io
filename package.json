@@ -5,11 +5,14 @@
     "node": "*"
   },
   "description": "",
-  "main": "gulpfile.js",
+  "main": "_site/index.html",
   "scripts": {
-    "start": "node app",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "gulp default"
+    "build": "yarn compile:pug-to-html && yarn compile:sass-to-css && yarn compile:js-es2015",
+    "compile:pug-to-html": "npx pug '_dev/pug/' -o '_includes' --pretty",
+    "compile:sass-to-css": "yarn compile-sass-site && yarn compile-sass-asset",
+    "compile:js-es2015": "npx browserify '_dev/js/yo.js' -o '_site/assets/js/app.js' -t [ babelify --presets [ @babel/preset-env ] ] && cp _site/assets/js/app.js assets/js/app.js",
+    "compile-sass-site": "npx node-sass _dev/sass/main.sass -o _site/assets/sass",
+    "compile-sass-asset": "npx node-sass _dev/sass/main.sass -o assets/css"
   },
   "repository": {
     "type": "git",
@@ -23,14 +26,13 @@
   },
   "homepage": "https://github.com/aaqaishtyaq/aaqa.github.io#readme",
   "devDependencies": {
-    "browser-sync": "*",
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "*",
-    "gulp-pug": "*",
-    "gulp-sass": "*",
-    "gulp-uglify": "*"
+    "@babel/core": "^7.12.10",
+    "@babel/preset-es2015": "^7.0.0-beta.53",
+    "babelify": "^10.0.0",
+    "browserify": "^17.0.0",
+    "minify": "^6.0.1",
+    "node-sass": "^5.0.0",
+    "pug-cli": "^1.0.0-alpha6"
   },
-  "dependencies": {
-    "natives": "^1.1.6"
-  }
+  "dependencies": {}
 }
