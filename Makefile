@@ -1,15 +1,13 @@
 default: install
 
 h help:
-		@grep '^a-Z' Makefile
-
-install:
-		bundle config set --local path vendor/bundle
-		bundle install
+	@grep '^a-Z' Makefile
 
 s serve:
-		bundle exec jekyll serve --trace --livereload
+	yarn start
 
 build:
-		yarn build && JEKYLL_ENV=production bundle exec jekyll build --trace
+	yarn build
 
+p production:
+	yarn production
