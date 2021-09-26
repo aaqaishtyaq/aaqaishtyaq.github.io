@@ -11,3 +11,5 @@ kramdown:
     syntax_highlighter: rouge
 permalink: /notes/:title
 baseurl: /
+keep_files: [assets]
+incremental: true
