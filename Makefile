@@ -9,5 +9,8 @@ s serve:
 build:
 	yarn build
 
+install:
+	bundle install && yarn install
+
 p production:
 	yarn production
