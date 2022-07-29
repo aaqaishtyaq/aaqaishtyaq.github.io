@@ -1,11 +1,12 @@
 {
 
     "languages": [
-        "Python",
-        "Go",
-        "Bash",
+        "Go (Currently enjoying the most)",
+        "Rust",
         "Ruby",
         "Javascript / Typescript",
+        "Python",
+        "Bash",
         "HTML5",
         "CSS3",
         "Sass",
@@ -16,13 +17,17 @@
         "Vim / VS Code",
         "Tmux (Can't live without)",
         "Z Shell",
+        "Buildkit",
+        "Containerd",
+        "Docker",
         "Virtualbox",
         "Vagrant",
-        "Docker (Currently having fun with)",
         "Ansible",
-        "Gulp"
+        "Gulp",
+        "Makefile / Taskfile"
     ],
     "frameworks": [
+        "OpenTelemetry",
         "Ruby on Rails",
         "Scrapy",
         "Django",
@@ -32,13 +37,15 @@
         "Mocha / Chai"
     ],
     "other": [
+        "Message Brokers",
         "Kubernetes",
-        "HTTP / REST / OAuth2 / API Development",
-        "PostgreSQL / MongoDB",
+        "Nomad",
+        "gRPC / HTTP / REST / OAuth2",
+        "Event-Driven/SAGA Architecture",
+        "PostgreSQL / MongoDB / DyanamoDB",
         "Git / Unit Testing / CI",
         "Basic UNIX Admin",
         "Nginx (SSL, Static asset caching)",
-        "AWS (EC2, S3)",
-        "Google Cloud Platform (GKE, GCR)"
+        "AWS / GCP / OCI"
     ]
 }

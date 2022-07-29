@@ -5,12 +5,12 @@
 
 
 ```bash
-Fork this repo
-bundle install && yarn install
+# Fork this repo
+make install
 ```
 
 Serve the page locally
 
 ```bash
-gulp
+make build
 ```
