@@ -3,17 +3,17 @@ layout: post
 title: Git exclude files from working copy
 ---
 
-# How to ignore new files
+## How to ignore new files
 
-## Globally
+### Globally
 
 Add the path(s) to your file(s) which you would like to ignore to your `.gitignore` file (and commit them). These file entries will also apply to others checking out the repository.
 
-## Locally
+### Locally
 
 Add the path(s) to your file(s) which you would like to ignore to your `.git/info/exclude` file. These file entries will only apply to your local working copy.
 
-# How to ignore changed files (temporarily)
+## How to ignore changed files (temporarily)
 
 In order to ignore changed files to being listed as modified, you can use the following git command:
 
