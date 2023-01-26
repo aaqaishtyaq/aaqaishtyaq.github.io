@@ -1,14 +1,26 @@
 {
-
     "jobs": [
         {
-            "year": "2019 / Present",
+            "year": "2022 / Present",
+            "title": "Senior Software Engineer",
+            "company": "HackerRank",
+            "url": "https://www.hackerrank.com/",
+            "location": "Remote, India"
+        },
+        {
+            "year": "2021 / 2022",
             "title": "SDE II",
+            "company": "HackerRank",
+            "url": "https://www.hackerrank.com/",
+            "location": "Remote, India"
+        },
+        {
+            "year": "2019 / 2021",
+            "title": "SDE",
             "company": "HackerRank",
             "url": "https://www.hackerrank.com/",
             "location": "Bengaluru, India"
         },
-
         {
             "year": "2019",
             "title": "Software Engineering Intern",
@@ -16,7 +28,6 @@
             "url": "https://www.hackerrank.com/",
             "location": "Bengaluru, India"
         },
-
         {
             "year": "2018",
             "title": "Freelance Django Developer",
@@ -24,7 +35,6 @@
             "url": "https://www.hostingjunction.in",
             "location": "Delhi, India"
         },
-
         {
             "year": "2018",
             "title": "Back End Developer Intern",
@@ -32,7 +42,6 @@
             "url": "https://stsolutions.co.in",
             "location": "Delhi, India"
         },
-
         {
             "year": "2017",
             "title": "IS Analyst Intern",
